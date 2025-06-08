@@ -1,0 +1,166 @@
+*, html, body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.nav {
+    background-color: rgb(166, 196, 223);
+    color: white;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu {
+    margin-left: 45%;
+}
+.menu > ul > li{
+    display: inline-block;
+    margin-left: 40px;
+}
+.menu > ul > li > a {
+    color: rgb(35, 136, 136);
+    text-decoration: none;
+}
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+.menu > ul > li > a:hover {
+    color:rgb(248, 248, 248);
+    background-color:(229, 229, 229);
+    padding: 5px;
+}
+.banner {
+    width: 100%;
+}
+.benner > img {
+    width: 100%;
+;
+    border: none;
+    padding: 0.5rem 1 rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: backround-color 0.3s ease;
+}
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+.cake-bakery{
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    text-align: center;
+}
+.cake-bakery h2 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+    width:100%;
+}
+.cake-bakery-item {
+    background-color: white;
+    box-shadow: 0 0 10px rgb(0, 0, 0, .5);
+    margin: 0.5rem;
+    max-width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 1rem;
+    border-radius: 5px;
+    flex: 1;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.cake-bakery-item:hover {
+    transform: scale(1.1);
+}
+.cake-bakery-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.cake-bakery-item h3 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+.cake-bakery-item p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+.cake-bakery button {
+    background-color: #ffcc00;
+    color: white;
+    border:none;
+    padding: 0.5rem 1rem;
+    cursor:pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cake-bakery-item button:hover {
+    background-color: pink;
+    color: white
+}
+.jenis{
+    margin-bottom: 23px;
+    text-align: center;
+}
+.jenis h2{
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+.paket-cake-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.paket-cake-item{
+    background-color: beige;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    flex: 1;
+    width: calc(33.33% - 1rem);
+    margin-bottom: 1rem;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    transition: transfrom 0.3s ease;
+}
+.paket-cake-item:hover{
+    transform: scale(1.1);
+}
+.paket-cake-item img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.paket-cake-item h3{
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+.paket-wisata-item h3{
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+.paket-cake-item button{
+    background-color: bisque;
+    color: wheat;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+,.paket-cake-item button:hover{
+    background-color: #555;
+    color:azure;
+}
